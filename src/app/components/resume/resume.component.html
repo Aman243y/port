@@ -1,0 +1,181 @@
+<div class="container text-center bg-success-subtle text-emphasis-success">
+  <button (click)="DownloadFile()" class="btn btn-primary mb-5 shadow border">Download PDF Resume</button>
+  <div class="pb-2 ">
+    <accordion [isAnimated]="true" class="shadow ">
+      <accordion-group [(isOpen)]="isWorkExperienceOpen" >
+        <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+          <div style="visibility: hidden;">></div>
+          <div class=" btn-link">Tranings & Certifications</div>
+          <div style="width: 10.95px;">
+            <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div>
+            <div *ngIf="isWorkExperienceOpen" style="color: white;">v</div>
+          </div>
+
+
+
+        </button>
+        <div class="bg-success-subtle text-emphasis-success">
+        <div  style="text-align: left;">
+          <h2 class="mb-0"> JAVA FRAMEWORKS</h2>
+          <h3 class="text-primary"> RST Forum  | October 2023 - Present</h3>
+          <ul>
+            <li>Learned to design module structures for Spring Boot applications.</li>
+            <li>Hands-on experience with Angular, focusing on Services, Components, and Routing.</li>
+            <li>Applied knowledge in building RESTful web services to enhance the frontend functionality.</li>
+            <li>Gained practical experience in deploying and managing applications</li>
+          </ul>
+        </div>
+        <hr>
+        <div style="text-align: left;">
+          <h2 class="mb-0">Java SE Developer (1Z0-829) certification </h2>
+          <h3 class="text-primary"> RST Forum | July - September 2023</h3>
+          <ul>
+            <li>Java fundamentals</li>
+            <li>Learn about java web technologies: Servlet, JSP</li>
+            <li>Implement JDBC connection with MYSQL.</li>
+              <li>Build end to end multi classroom projects</li>
+          </ul>
+        </div>
+        <hr>
+        <div style="text-align: left;">
+          <h2 class="mb-0">Microsoft Certified: Data Analyst Associate</h2>
+          <h3 class="text-primary"> ICT ACADEMY | March 2023</h3>
+          <ul>
+            <li>PowerBi</li>
+            <li>SQL</li>
+            <li>MS-Excel</li>
+          </ul>
+        </div>
+        <hr>
+        <div style="text-align: left;">
+          <h2 class="mb-0"> AZURE FUNDAMENTAL</h2>
+          <h3 class="text-primary"> Microsoft | January 2023</h3>
+          <ul>
+            <li>Cloud Concepts.</li>
+            <li>Core Azure Services.</li>
+            <li>Azure Management Tools.</li>
+            <li>Azure Identity, Security, and Privacy. </li>
+          </ul>
+        </div>
+        <hr>
+        <div style="text-align: left;">
+          <h2 class="mb-0">
+            98-382:MTA: Introduction to Programming using JavaScript</h2>
+          <h3 class="text-primary"> Microsoft | January 2021</h3>
+          <ul>
+            <li>JavaScript Basics.</li>
+            <li>Program Flow Contros.</li>
+            <li>Function, Methods & object.</li>
+            <li>Document Object Model (DOM). </li>
+          </ul>
+        </div>
+      </div>
+      </accordion-group>
+
+      <accordion-group [(isOpen)]="isEducationOpen">
+        <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+          <div style="visibility: hidden;">></div>
+          <div class="btn-link">Education</div>
+          <div style="width: 10.95px;">
+            <div *ngIf="!isEducationOpen" style="color: white;">></div>
+            <div *ngIf="isEducationOpen" style="color: white;">v</div>
+          </div>
+
+
+
+        </button>
+        <div class="bg-success-subtle text-emphasis-success">
+          <div style="text-align: left;">
+            <h2 class="mb-0">Bachelor of Science in Information Technology (BSc IT)</h2>
+            <h3 class="text-primary">Mumbai University , Mumbai, India | August 2023 </h3>
+            <ul>
+              <li>Grades:-9.01 CGPA</li>
+            </ul>
+          </div>
+          <hr>
+          <div style="text-align: left;">
+            <h2 class="mb-0">HSC (Science)</h2>
+            <h3 class="text-primary">Maharashtra State Board,Mumbai,India| June 2020 </h3>
+            <ul>
+              <li>Aandra Education Society</li>
+  
+              <li>Percentage:-67.85</li>
+            </ul>
+          </div>
+          <hr>
+          <div  style="text-align: left;">
+            <h2 class="mb-0">SSC 10th </h2>
+            <h3 class="text-primary">Maharashtra State Board,Mumbai,India| June 2018 </h3>
+            <ul>
+              <li>Sitaram Prakash High School</li>
+  
+              <li>Percentage:-75.85</li>
+            </ul>
+          </div>
+        </div>
+
+      </accordion-group>
+      <accordion-group [(isOpen)]="isSkillsOpen">
+        <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+          <div style="visibility: hidden;">></div>
+          <div class="btn-link"> Technical Skills</div>
+          <div style="width: 10.95px;">
+            <div *ngIf="!isSkillsOpen" style="color: white;">></div>
+            <div *ngIf="isSkillsOpen" style="color: white;">v</div>
+          </div>
+
+
+
+        </button>
+        <div class="bg-success-subtle text-emphasis-success row" style="text-align: left;">
+        <div class="col">
+          <h3>FronEnd</h3>
+          <li>Angular(2+)</li>
+          <li>TypeScript </li>
+          <li>BootStrap</li>
+
+        </div>
+        <div class="col">
+          <h3>BackEnd</h3>
+          <li>SpringBoot</li>
+          <li>Java</li>
+          <li>RestFull API'S(Design and IMPL)</li>
+
+
+        </div>
+        <div class="col">
+          <h3>DataBase</h3>
+          <li>MYSQL</li>
+
+        </div>
+        <div class="col">
+          <h3>Version Control</h3>
+          <li>Git</li>
+          <li>GitHub</li>
+
+
+        </div>
+        <hr>
+        <div class="">
+          <h3>KeyStrengths</h3>
+          <li>Skilled at designing and building complete solutions.</li>
+          <li>Enhance frontend speed for a better user experience.</li>
+          <li>Proficient in RESTful architecture.</li>
+          <li>Understands the principles of microservices. </li>
+        </div>
+        </div>
+
+
+      </accordion-group>
+      </accordion>
+
+
+
+  </div>
+
+
+
+</div>
+
+
+

@@ -1,0 +1,36 @@
+
+
+<div class="container ">
+  <div class="row">
+    <div class="col-lg shadow border m-1 ">
+          <!--About me-->
+
+      <div class="p-3 mb-2 bg-success-subtle text-emphasis-success fw-semibold text-center mt-4">
+        <h3 class="fw-bold">About Me</h3>
+        <img class="p-3 mb-2 bg-success-subtle text-emphasis-success" src="assets/profile.png" alt="profile picture" style="display: block; width: 100%;" >
+        <p class="fw-medium">Greetings! I'm Aman Yadav, Armed with a solid foundation in frontend & backend languages and resposive framework and database  Technologies, I am eager to embark on a journey of continuous learning and hands-on experience.  I bring a fresh perspective and a strong drive to contribute to innovative projects. Excited about the prospect of diving into real-world coding challenges, I am ready to make my mark in the dynamic world of software development.</p>
+
+      </div>
+            <!--Featured Project-->
+
+    </div>
+    <div class="col-lg shadow border m-1  ">
+      <div class="p-3 mb-2 bg-danger-subtle text-emphasis-danger text-center mt-4">
+        <h2 class="fw-bold">Featured project</h2>
+        <h4 class="fw-medium">{{featuredProject.name}}</h4>
+      </div>
+
+      <carousel>
+        <div *ngFor="let picture of featuredProject.pictures">
+          <slide><img class="p-3 mb-2 bg-danger-subtle text-emphasis-danger" src={{picture}} alt="slide" style="display: block; width: 100%;"></slide>
+         </div>
+    </carousel>
+
+    <p class="mt-2 fw-medium p-3 mb-2 bg-danger-subtle text-emphasis-danger">*{{featuredProject.summary}}</p>
+    <p class="p-3 mb-2 bg-danger-subtle text-emphasis-danger fw-medium">Visit the Portfolio section to learn more:--></p>
+
+    </div>
+
+  </div>
+
+</div>
